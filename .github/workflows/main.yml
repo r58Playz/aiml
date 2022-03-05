@@ -45,8 +45,8 @@ jobs:
         run: |
           cd sphinx
           make html
-          \rm -rf ../docs/*
-          mv build/html/* ../docs
+          \rm -rf ../docs/* -v
+          mv build/html/* ../docs -v
       - name: GitHub Push
         # You may pin to the exact commit or the version.
         # uses: ad-m/github-push-action@40bf560936a8022e68a3c00e7d2abefaf01305a6
@@ -65,4 +65,3 @@ jobs:
           # Directory to change to before pushing.
           directory: docs # optional, default is .
 
-    
