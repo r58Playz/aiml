@@ -43,6 +43,8 @@ jobs:
           pytest .
       - name: run docs
         run: |
-          cd docs
+          cd sphinx
           make html
+          \rm -rf ../docs/*
+          mv build/html/* ../docs
     
