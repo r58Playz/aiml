@@ -56,12 +56,12 @@ jobs:
       - name: install sphinx
         run: python -m pip install Sphinx
       - name: run docs
-          run: |
-            cd sphinx
-            make html
-            \rm -rf ../docs/* -v
-            mv build/html/* ../docs -v
-            cd ../docs
+        run: |
+          cd sphinx
+          make html
+          \rm -rf ../docs/* -v
+          mv build/html/* ../docs -v
+          cd ../docs
       - name: commit docs
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
