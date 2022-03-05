@@ -6,6 +6,8 @@
 Welcome to aiml's documentation!
 ================================
 
+AIML Docs
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:

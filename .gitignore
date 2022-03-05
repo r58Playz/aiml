@@ -131,3 +131,6 @@ dmypy.json
 #sphinx
 sphinx/build
 
+# Idea
+.idea
+
