@@ -39,3 +39,8 @@ jobs:
         run: |
           cd tests
           pytest .
+      - name: run docs
+        run: |
+          cd docs
+          make html
+    
