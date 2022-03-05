@@ -47,8 +47,9 @@ jobs:
           make html
           \rm -rf ../docs/* -v
           mv build/html/* ../docs -v
-          cd ..
-          git add docs/*
+          cd ../docs
+          git add * -v 
+          git commit -m "updating docs" . -v
 
       - name: GitHub Push
         # You may pin to the exact commit or the version.
