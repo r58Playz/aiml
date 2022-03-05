@@ -45,6 +45,6 @@ jobs:
         run: |
           cd sphinx
           make html
-          \rm -rf ../docs/*
-          mv build/html/* ../docs
+          \rm -rf ../docs/* -v
+          mv build/html/* ../docs -v
     
