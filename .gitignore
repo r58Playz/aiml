@@ -129,4 +129,6 @@ dmypy.json
 .pyre/
 
 #sphinx
-docs/build/
+docs/
+sphinx/build
+
