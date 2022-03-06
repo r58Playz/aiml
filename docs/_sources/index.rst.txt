@@ -12,6 +12,7 @@ AIML Docs
    :maxdepth: 2
    :caption: Contents:
 
+   mergesort
 
 
 Indices and tables
