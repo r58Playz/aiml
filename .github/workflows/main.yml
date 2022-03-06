@@ -37,7 +37,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: run pytest
         run: |
-          pytest tests/
+          PYTHONPATH=. pytest tests/
 
   docs:
     # The type of runner that the job will run on
